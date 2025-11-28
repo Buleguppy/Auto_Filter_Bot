@@ -31,7 +31,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 #Making it false will not save caption in db SO you can save some storage space
 
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://telegra.ph/file/92dd67f7577224a976a7d.jpg https://telegra.ph/file/f07e1d4a5e43a80f6aece.jpg https://telegra.ph/file/3c528be1e24654f9b03fd.jpg https://telegra.ph/file/c682acb305752efcb85e6.jpg https://telegra.ph/file/ecbcf5b54fba3acc09c1b.jpg https://telegra.ph/file/e7268c51c4fca2a879830.jpg https://telegra.ph/file/6676602f61d9a03982e95.jpg https://telegra.ph/file/7281bb5606567037f2f95.jpg https://telegra.ph/file/d556abe653d3f30a827db.jpg https://telegra.ph/file/93fb81df5fac3c6fad162.jpg https://telegra.ph/file/2d2fb672cd9c835fdbe41.jpg https://telegra.ph/file/479f25ee51d78b5c7deca.jpg https://telegra.ph/file/2d74d2bcb89a1f86e9d5b.jpg https://telegra.ph/file/5033a1cd72319c8b300b8.jpg https://telegra.ph/file/96c0f56eee80d16aee112.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/56b5deb73f3b132e2bb73.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -100,9 +100,9 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-100')) #Verification Channe
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-100')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/dreamxbotz")   # Tutorial link for verification
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/dreamxbotz")   # Second tutorial link for verification
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/dreamxbotz")   # Third tutorial link for verification
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/planet_movies_nami_updates")   # Tutorial link for verification
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/planet_movies_nami_updates")   # Second tutorial link for verification
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/planet_movies_nami_updates")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
 SHORTENER_API = environ.get("SHORTENER_API", "a7ac9b3012c67d7491414cf272d82593c75f6cbb") # Shortener API key
@@ -120,9 +120,9 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamxbotz') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/dreamxbotz') # Owner link for the bot
-UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/dreamxbotz') # Update channel link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/planet_movies_grp1') # Group link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/LiZarD_amc') # Owner link for the bot
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/planet_movies_nami_updates') # Update channel link for the bot
 
 # ============================
 # User Configuration
