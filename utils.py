@@ -10,7 +10,7 @@ from pyrogram import enums
 from typing import Union
 from Script import script
 from typing import List
-from database.users_chats_db import db
+from database.ia_filterdb import Media, Media2
 from bs4 import BeautifulSoup
 import requests
 from shortzy import Shortzy
